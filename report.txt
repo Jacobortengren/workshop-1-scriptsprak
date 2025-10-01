@@ -1,45 +1,60 @@
-Huvudkontor
-  SW-CORE-01
-  SW-CORE-02
-  SW-DIST-01
-  SW-DIST-02
-  SW-ACCESS-03
-  SW-ACCESS-04
-  SW-ACCESS-05
-  RT-EDGE-01
-  RT-EDGE-02
-  AP-FLOOR1-01
-  AP-FLOOR1-02
-  AP-FLOOR2-01
-  AP-FLOOR2-02
-  AP-FLOOR3-01
-  FW-DMZ-01
-Lager
-  SW-LAGER-01
-  SW-LAGER-02
-  RT-LAGER-01
-  AP-LAGER-01
-  AP-LAGER-02
-Kontor Malmö
-  SW-MAL-CORE-01
-  SW-MAL-ACC-01
-  SW-MAL-ACC-02
-  RT-MAL-01
-  AP-MAL-01
-  AP-MAL-02
-  FW-MAL-01
-Datacenter
-  SW-DC-CORE-01
-  SW-DC-CORE-02
-  SW-DC-TOR-01
-  SW-DC-TOR-02
-  SW-DC-TOR-03
-  RT-DC-EDGE-01
-  FW-DC-01
-  FW-DC-02
-  LB-DC-01
-  LB-DC-02
-Säkerhetskopia
-  SW-DR-01
-  RT-DR-01
-  FW-DR-01
+Företag: TechCorp AB
+Senast uppdaterad: 2024-09-30T10:30:00
+- SW-ACCESS-03 (switch) på Huvudkontor i Stockholm → STATUS: offline
+- AP-FLOOR2-02 (access_point) på Huvudkontor i Stockholm → STATUS: warning
+- RT-LAGER-01 (router) på Lager i Göteborg → STATUS: warning
+- AP-LAGER-02 (access_point) på Lager i Göteborg → STATUS: offline
+- SW-DC-TOR-02 (switch) på Datacenter i Stockholm → STATUS: warning
+
+Total number of devices per type:
+- switch: 18
+- router: 6
+- access_point: 9
+- firewall: 5
+- load_balancer: 2
+
+Enheter med mindre än 30 dagars uptime:
+- SW-ACCESS-03 (switch) på Huvudkontor i Stockholm → Uptime: 0 dagar
+- SW-ACCESS-05 (switch) på Huvudkontor i Stockholm → Uptime: 15 dagar
+- AP-FLOOR2-01 (access_point) på Huvudkontor i Stockholm → Uptime: 12 dagar
+- AP-FLOOR2-02 (access_point) på Huvudkontor i Stockholm → Uptime: 2 dagar
+- SW-LAGER-02 (switch) på Lager i Göteborg → Uptime: 23 dagar
+- RT-LAGER-01 (router) på Lager i Göteborg → Uptime: 2 dagar
+- AP-LAGER-02 (access_point) på Lager i Göteborg → Uptime: 0 dagar
+- SW-MAL-ACC-02 (switch) på Kontor Malmö i Malmö → Uptime: 8 dagar
+- SW-DC-TOR-02 (switch) på Datacenter i Stockholm → Uptime: 5 dagar
+
+Total portanvändning för alla switchar:
+- Använda portar: 541
+- Totala portar: 676
+- Procentuellt använda: 80.03%
+
+Alla unika VLAN som används i nätverket:
+[10, 20, 30, 40, 50, 100, 110, 120, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 2100]
+
+Översikt per lokation:
+- Huvudkontor i Stockholm:
+  Totalt antal enheter: 15
+  Online: 13
+  Offline: 1
+  Warning: 1
+- Lager i Göteborg:
+  Totalt antal enheter: 5
+  Online: 3
+  Offline: 1
+  Warning: 1
+- Kontor Malmö i Malmö:
+  Totalt antal enheter: 7
+  Online: 7
+  Offline: 0
+  Warning: 0
+- Datacenter i Stockholm:
+  Totalt antal enheter: 10
+  Online: 9
+  Offline: 0
+  Warning: 1
+- Säkerhetskopia i Umeå:
+  Totalt antal enheter: 3
+  Online: 3
+  Offline: 0
+  Warning: 0
