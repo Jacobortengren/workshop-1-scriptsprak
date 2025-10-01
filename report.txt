@@ -1,10 +1,10 @@
-Företag: TechCorp AB
-Senast uppdaterad: 2024-09-30T10:30:00
-- SW-ACCESS-03 (switch) på Huvudkontor i Stockholm → STATUS: offline
-- AP-FLOOR2-02 (access_point) på Huvudkontor i Stockholm → STATUS: warning
-- RT-LAGER-01 (router) på Lager i Göteborg → STATUS: warning
-- AP-LAGER-02 (access_point) på Lager i Göteborg → STATUS: offline
-- SW-DC-TOR-02 (switch) på Datacenter i Stockholm → STATUS: warning
+Company: TechCorp AB
+Last updated: 2024-09-30T10:30:00
+- SW-ACCESS-03 (switch) at Huvudkontor in Stockholm → STATUS: offline
+- AP-FLOOR2-02 (access_point) at Huvudkontor in Stockholm → STATUS: warning
+- RT-LAGER-01 (router) at Lager in Göteborg → STATUS: warning
+- AP-LAGER-02 (access_point) at Lager in Göteborg → STATUS: offline
+- SW-DC-TOR-02 (switch) at Datacenter in Stockholm → STATUS: warning
 
 Total number of devices per type:
 - switch: 18
@@ -13,48 +13,48 @@ Total number of devices per type:
 - firewall: 5
 - load_balancer: 2
 
-Enheter med mindre än 30 dagars uptime:
-- SW-ACCESS-03 (switch) på Huvudkontor i Stockholm → Uptime: 0 dagar
-- SW-ACCESS-05 (switch) på Huvudkontor i Stockholm → Uptime: 15 dagar
-- AP-FLOOR2-01 (access_point) på Huvudkontor i Stockholm → Uptime: 12 dagar
-- AP-FLOOR2-02 (access_point) på Huvudkontor i Stockholm → Uptime: 2 dagar
-- SW-LAGER-02 (switch) på Lager i Göteborg → Uptime: 23 dagar
-- RT-LAGER-01 (router) på Lager i Göteborg → Uptime: 2 dagar
-- AP-LAGER-02 (access_point) på Lager i Göteborg → Uptime: 0 dagar
-- SW-MAL-ACC-02 (switch) på Kontor Malmö i Malmö → Uptime: 8 dagar
-- SW-DC-TOR-02 (switch) på Datacenter i Stockholm → Uptime: 5 dagar
+Devices with less than 30 days of uptime.:
+- SW-ACCESS-03 (switch) at Huvudkontor in Stockholm → Uptime: 0 days
+- SW-ACCESS-05 (switch) at Huvudkontor in Stockholm → Uptime: 15 days
+- AP-FLOOR2-01 (access_point) at Huvudkontor in Stockholm → Uptime: 12 days
+- AP-FLOOR2-02 (access_point) at Huvudkontor in Stockholm → Uptime: 2 days
+- SW-LAGER-02 (switch) at Lager in Göteborg → Uptime: 23 days
+- RT-LAGER-01 (router) at Lager in Göteborg → Uptime: 2 days
+- AP-LAGER-02 (access_point) at Lager in Göteborg → Uptime: 0 days
+- SW-MAL-ACC-02 (switch) at Kontor Malmö in Malmö → Uptime: 8 days
+- SW-DC-TOR-02 (switch) at Datacenter in Stockholm → Uptime: 5 days
 
-Total portanvändning för alla switchar:
-- Använda portar: 541
-- Totala portar: 676
-- Procentuellt använda: 80.03%
+Total ports in use across all switches:
+- Ports in use: 541
+- Total ports: 676
+- % of ports currently in use: 80.03%
 
-Alla unika VLAN som används i nätverket:
+All unique VLANs in use:
 [10, 20, 30, 40, 50, 100, 110, 120, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 2100]
 
-Översikt per lokation:
-- Huvudkontor i Stockholm:
-  Totalt antal enheter: 15
+Overview per location:
+- Huvudkontor in Stockholm:
+  Total number of devices: 15
   Online: 13
   Offline: 1
   Warning: 1
-- Lager i Göteborg:
-  Totalt antal enheter: 5
+- Lager in Göteborg:
+  Total number of devices: 5
   Online: 3
   Offline: 1
   Warning: 1
-- Kontor Malmö i Malmö:
-  Totalt antal enheter: 7
+- Kontor Malmö in Malmö:
+  Total number of devices: 7
   Online: 7
   Offline: 0
   Warning: 0
-- Datacenter i Stockholm:
-  Totalt antal enheter: 10
+- Datacenter in Stockholm:
+  Total number of devices: 10
   Online: 9
   Offline: 0
   Warning: 1
-- Säkerhetskopia i Umeå:
-  Totalt antal enheter: 3
+- Säkerhetskopia in Umeå:
+  Total number of devices: 3
   Online: 3
   Offline: 0
   Warning: 0
