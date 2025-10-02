@@ -27,9 +27,19 @@ import json
 with open("network_devices.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
+print(r"""
+ _   _      _                      _   
+| \ | | ___| |___      _____  _ __| | __
+|  \| |/ _ \ __\ \ /\ / / _ \| '__| |/ /
+| |\  |  __/ |_ \ V  V / (_) | |  |   < 
+|_| \_|\___|\__| \_/\_/ \___/|_|  |_|\_\
+                                         
+Network Report - Techcorp AB
+""")
+print ("---------------------------------------------------------------------")
 # fetches the company names and the last update.
 company_name = data["company"]
-last_updated = data["last_updated"]
+last_updated = data["last_updated"]    
 
 # Writes to the terminal
 print(f"Company: {company_name}")
