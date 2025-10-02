@@ -1,10 +1,12 @@
 Company: TechCorp AB
 Last updated: 2024-09-30T10:30:00
+---------------------------------------------------------------------
 - SW-ACCESS-03 (switch) at Huvudkontor in Stockholm → STATUS: offline
 - AP-FLOOR2-02 (access_point) at Huvudkontor in Stockholm → STATUS: warning
 - RT-LAGER-01 (router) at Lager in Göteborg → STATUS: warning
 - AP-LAGER-02 (access_point) at Lager in Göteborg → STATUS: offline
 - SW-DC-TOR-02 (switch) at Datacenter in Stockholm → STATUS: warning
+---------------------------------------------------------------------
 
 Total number of devices per type:
 - switch: 18
@@ -12,6 +14,7 @@ Total number of devices per type:
 - access_point: 9
 - firewall: 5
 - load_balancer: 2
+---------------------------------------------------------------------
 
 Devices with less than 30 days of uptime.:
 - SW-ACCESS-03 (switch) at Huvudkontor in Stockholm → Uptime: 0 days
@@ -23,14 +26,17 @@ Devices with less than 30 days of uptime.:
 - AP-LAGER-02 (access_point) at Lager in Göteborg → Uptime: 0 days
 - SW-MAL-ACC-02 (switch) at Kontor Malmö in Malmö → Uptime: 8 days
 - SW-DC-TOR-02 (switch) at Datacenter in Stockholm → Uptime: 5 days
+---------------------------------------------------------------------
 
 Total ports in use across all switches:
 - Ports in use: 541
 - Total ports: 676
 - % of ports currently in use: 80.03%
+---------------------------------------------------------------------
 
 All unique VLANs in use:
 [10, 20, 30, 40, 50, 100, 110, 120, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 2100]
+---------------------------------------------------------------------
 
 Overview per location:
 - Huvudkontor in Stockholm:

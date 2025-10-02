@@ -36,6 +36,7 @@ print(f"Company: {company_name}")
 print(f"Last updated: {last_updated}")
 
 # --- Task 2 : Lists the devices with problems in the various locations. ---
+print ("---------------------------------------------------------------------")    
 
 for location in data["locations"]:
     for device in location["devices"]:
@@ -45,19 +46,21 @@ for location in data["locations"]:
 
 # --- Task 3 : Counts the total number of devices per type. ---
 
+print ("---------------------------------------------------------------------")    
+
 device_count = {}
 
 for location in data["locations"]:
     for device in location["devices"]:
         dtype = device["type"]
         device_count[dtype] = device_count.get(dtype, 0) + 1
-
+        
 print("\nTotal number of devices per type:")
 for dtype, count in device_count.items():
     print(f"- {dtype}: {count}")
 
 # --- Task 4 : List all devices with less than 30 days uptime. ---
-
+print ("---------------------------------------------------------------------")   
 print("\nDevices with less than 30 days of uptime.:")
 
 for location in data["locations"]:
@@ -68,7 +71,7 @@ for location in data["locations"]:
 
 # --- DEL B -----------------------------------------------------------------
 # --- Task 5 : Total port usage for all switches ----------------------------
-
+print ("---------------------------------------------------------------------")   
 total_ports = 0
 used_ports = 0
 
@@ -88,7 +91,7 @@ print(f"- Total ports: {total_ports}")
 print(f"- % of ports currently in use: {percent_used:.2f}%")
 
 # --- Task 6 : List all unique VLANs in the network ---
-
+print ("---------------------------------------------------------------------")   
 unique_vlans = set()
 
 for location in data["locations"]:
@@ -104,7 +107,7 @@ print("\nAll unique VLANs in use:")
 print(sorted_vlans)
 
 # --- Task 7 : Overview per location (total devices, online/offline counts) ---
-
+print ("---------------------------------------------------------------------")   
 print("\nOverview per location:")
 
 for location in data["locations"]:
